@@ -1,4 +1,4 @@
-#Tue Aug 16 11:04:38 IST 2022
-base.0=/Users/pranjal/FlutterProjects/mycalc/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Tue Aug 16 12:38:19 IST 2022
+base.0=/Users/pranjal/FlutterProjects/meraCalc/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

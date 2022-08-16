@@ -205,18 +205,23 @@ class _MycalculatorState extends State<Mycalculator> {
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15.0)),
                           onPressed: () => {
-                            solve("sin("),
+                            solve("%"),
                             HapticFeedback.vibrate(),
                           },
 
                           label: Container(child: null),
                           icon: Padding(
                             padding: const EdgeInsets.only(left: 8),
-                            child: Icon(
-                              Icons.keyboard,
-                              color: Colors.white,
-                              size: 23,
+                            child: Text(
+                              "%",
+                              style:
+                                  TextStyle(fontSize: 28, color: Colors.white),
                             ),
+                            // Icon(
+                            //   // Icons.keyboard,
+                            //   color: Colors.white,
+                            //   size: 23,
+                            // ),
                           ),
                         ),
                       ),
@@ -297,7 +302,7 @@ class _MycalculatorState extends State<Mycalculator> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  button(")", widths, heights),
+                  button("00", widths, heights),
                   button("0", widths, heights),
                   button(".", widths, heights),
                   Container(
