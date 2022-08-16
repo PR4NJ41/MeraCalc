@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:mycalc/homescreen.dart';
+import 'package:meraCalc/homescreen.dart';
 import 'package:flutter/services.dart';
 
 void main() {
